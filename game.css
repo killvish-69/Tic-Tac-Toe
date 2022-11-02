@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kolker Brush', cursive;
+
+}
+
+.outer {
+    height: 100vh;
+    width: 100vw;
+    background-color: #46454a;
+    padding: 10rem 0 0 35rem;
+    display:flex;
+}
+
+.maincontainer {
+    height: 70%;
+    width: 40%;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: 2rem 0 0 0;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px black;
+    
+}
+
+.title {
+    display: inline-block;
+    font-size: 50px;
+    color: #ba3d3d;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px black;
+    margin: 3% 0 0 40%;
+}
+
+.turn {
+    height: 2rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin:1rem 0 0 14rem;
+    align-items: center;
+    color: #ba3d3d;
+    text-shadow: 1px 1px black;
+}
+
+.btn {
+    border-radius: 50px;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+   font-size: 20px;
+    text-shadow: 1px 1px black;
+    border:1px solid gray;
+    padding: .8rem 0 0 1rem
+}
+
+.playarea {
+    height: 18.3rem;
+    width: 18.3rem;
+    margin: 4% 0 0 35%;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 6rem;
+    width: 6rem;
+    background-image: url(images/bg.jpeg);
+    font-size: 60px;
+    color: #ba3d3d;
+    text-shadow: 4px 4px black;
+    padding: 3% 0 0 5%;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
+}
+.result{
+    height:40%;
+    width:30%;
+    background-image: url(images/bg.jpeg);
+    background-position: 0 0 0 4rem;
+    background-position-x: right;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px black;
+    margin: 5rem 0 0 2rem;
+    position: relative;
+    display:none;
+
+}
+ .textwin{
+    color:#ba3d3d;
+    height:100%;
+ font-size: 40;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:4rem 0 0 0; 
+    text-shadow: 4px 4px black;
+  position: absolute;
+  top:0%;
+  left:0%;
+}
+.text2{
+    font-size: 70px;
+}
+.imagediv{
+    height:100%;
+    width:50%; 
+position: absolute;
+top:0%;
+left:50%;
+    
+} 
+.image{
+    height:100%;
+    width:100%;
+}
